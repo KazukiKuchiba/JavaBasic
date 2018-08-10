@@ -21,6 +21,21 @@ public class PTra02_10 {
 		 * ※ 日本円には小数点がありませんので、整数の値で出力してください(少数部分は切り捨て)
 		 * ※ プログラムは何行書いても良いです
 		 */
+		double tax = 1.08;
+		double coffee1 = 120 * tax;
+		double snack1 = 200 * tax;
+		double balance = moneyInHand - (coffee1 * 2 + snack1);
+			System.out.println(balance);
+
+
+
+
+
+
+
+
+
+
 
 	}
 }

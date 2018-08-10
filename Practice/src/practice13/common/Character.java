@@ -17,13 +17,28 @@ public class Character {
 
 	/** 体力 */
 	private int hp;
-
+	public int getHp() {
+		return hp;
+	}
+	public void setHp(int hp) {
+		this.hp = hp;
+	}
 	/** 力 */
 	private int power;
-
+	public int getPower() {
+		return power;
+		}
+	public void setPower(int power) {
+		this.power = power;
+		}
 	/** 防御力 */
 	private int endurance;
-
+	public int getEndurance() {
+		return endurance;
+		}
+	public void setEndurance(int endurance) {
+		this.endurance = endurance;
+		}
 	/**
 	 * 体力、攻撃力、防御力の初期値を設定しつつ、Characterインスタンスを生成します
 	 * @param hp
@@ -35,6 +50,7 @@ public class Character {
 		this.power = power;
 		this.endurance = endurance;
 	}
+
 
 	/**
 	 * 名前を設定します
@@ -102,4 +118,6 @@ public class Character {
 
 		return str.toString();
 	}
+
+
 }

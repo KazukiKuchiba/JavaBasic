@@ -10,6 +10,10 @@ public class PTra01_05 {
 	public static void main(String[] args) {
 
 		// ★ char型の変数 c を宣言してください
+		char c = 'R';
+
+		System.out.println(c);
+
 
 
 		// ★ 変数 c に文字「R」を代入してください
